@@ -10,7 +10,9 @@ function App() {
     <div className="App bg-dark">
       <EpiflixNavbar />
       <GenresBar />
-      <FilmsSlider />
+      <FilmsSlider searchTerm="harry potter" />
+      <FilmsSlider searchTerm="lord of the rings" />
+      <FilmsSlider searchTerm="fast and furious" />
       <EpiflixFooter />
     </div>
   );
