@@ -5,7 +5,7 @@ function GenresBar() {
   return (
     <div className="d-flex flex-row genresBarText container-fluid align-items-baseline" data-bs-theme="dark">
       <div className="me-auto d-flex flex-row">
-        <p className="fw-bold fs-3">TV Shows</p>
+        <p className="fw-bold fs-3 sliderTitle">TV Shows</p>
         <Dropdown>
           <Dropdown.Toggle variant="outline-light" id="dropdown-basic" className="ms-2">
             Genres
